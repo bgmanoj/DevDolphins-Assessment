@@ -72,12 +72,6 @@ Each detection result contains:
 
 ---
 
-## 🗄 Temporary Storage
-
-- PostgreSQL is used to store **temporary/intermediate data** required for processing (e.g., tracking processed chunks, intermediate aggregations, etc.)
-
----
-
 ## 💡 Notes & Assumptions
 
 - The `customerId` is assumed to represent `customerName` in the final output as no name field is present.
