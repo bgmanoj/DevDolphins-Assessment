@@ -39,20 +39,20 @@ Refer source folder.
 
 ### 🔸 Pattern ID: `PatId1` → `UPGRADE`
 - A customer is in the **top 1 percentile** for total number of transactions with a merchant
-- AND has a **bottom 1 percentile weight** from the CustomerImportance data
-- **AND** the total transactions for that merchant **exceed 50,000**
+- And has a **bottom 1 percentile weight** from the CustomerImportance data
+- **And ** the total transactions for that merchant **exceed 50,000**
 - ⇒ Detection: Merchant wants to `UPGRADE` the customer
 
 ### 🔸 Pattern ID: `PatId2` → `CHILD`
 - A customer has:
   - **Average transaction value < Rs. 23**
-  - AND has made **at least 80 transactions** with a merchant
+  - And has made **at least 80 transactions** with a merchant
 - ⇒ Detection: Merchant wants to mark them as `CHILD`
 
 ### 🔸 Pattern ID: `PatId3` → `DEI-NEEDED`
 - A merchant has:
   - **Number of female customers < male customers**
-  - AND more than **100 female customers**
+  - And more than **100 female customers**
 - ⇒ Detection: Merchant should take diversity actions: `DEI-NEEDED`
 
 ---
